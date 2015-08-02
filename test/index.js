@@ -16,19 +16,19 @@ describe('rtb-validator', function () {
     bidRequest = JSON.parse(fs.readFileSync(__dirname + '/data/bid_request.json'));
     bidResponse = JSON.parse(fs.readFileSync(__dirname + '/data/bid_response.json'));
   });
-  
+
   it('should validate BidRequest', function (done) {
 
-    console.log(bidRequest);
-    bidRequest.should.not.be.equal(null);
+    var hasErrors = rtbValidator.bidRequestHasErrors(bidRequest);
+    hasErrors.should.equal(false);
     done();
 
   });
 
   it('should validate BidResponse', function (done) {
 
-    console.log(bidResponse);
-    bidRequest.should.not.be.equal(null);
+    var hasErrors = rtbValidator.bidResponseHasErrors(bidResponse);
+    hasErrors.should.equal(false);
     done();
 
   });
