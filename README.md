@@ -1,5 +1,5 @@
 # rtb-validator [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> Validator for OpenRTB ob
+> Validator for OpenRTB objects (v2.3+)
 
 
 ## Install
@@ -24,7 +24,7 @@ MIT © [Andrei Karpushonak]()
 
 [npm-image]: https://badge.fury.io/js/rtb-validator.svg
 [npm-url]: https://npmjs.org/package/rtb-validator
-[travis-image]: https://travis-ci.org/miktam/rtb-validator.svg?branch=master
-[travis-url]: https://travis-ci.org/miktam/rtb-validator
+[travis-image]: https://travis-ci.org/avrora/rtb-validator.svg?branch=master
+[travis-url]: https://travis-ci.org/avrora/rtb-validator
 [daviddm-image]: https://david-dm.org/miktam/rtb-validator.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/miktam/rtb-validator
