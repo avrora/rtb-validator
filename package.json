@@ -1,13 +1,13 @@
 {
   "name": "rtb-validator",
   "version": "0.0.0",
-  "description": "Validator for OpenRTB ob",
-  "homepage": "",
-  "repository": "miktam/rtb-validator",
+  "description": "Validator for OpenRTB objects",
+  "homepage": "https://github.com/avrora/rtb-validator",
+  "repository": "avrora/rtb-validator",
   "author": {
     "name": "Andrei Karpushonak",
     "email": "andrei@avrora.io",
-    "url": ""
+    "url": "https://github.com/miktam"
   },
   "files": [
     "lib"
